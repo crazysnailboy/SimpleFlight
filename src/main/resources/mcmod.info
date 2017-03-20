@@ -5,11 +5,11 @@
   "description": "Simple Flight isn't your average wimpy flight mod that has you creative fly in survival mode. No, simple flight is HARDCORE. You can only fly for a limited amount of flaps per flight, and not all wings allow you to glide safely -- meaning if you're not careful, you can take a significant amount of fall damage.
 
 Good luck, survivalist. You'll be needing it.",
-  "version": "0.9-prerelease",
-  "mcversion": "1.7.2",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
   "url": "http://www.curseforge.com/projects/221501/",
   "updateUrl": "http://minecraft.curseforge.com/mc-mods/221501-simple-flight/files",
-  "authorList": ["DeeP_ci"],
+  "authorList": ["DeeP_ci","csb987"],
   "credits": "",
   "logoFile": "",
   "screenshots": ["http://media-curse.cursecdn.com/attachments/118/634/28d33e392f93c0cdf63c248e6d7a386a.png"],

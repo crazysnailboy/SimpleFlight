@@ -22,6 +22,42 @@ public final class SimpleConfig
 	protected Item flyLonger_item;
 	protected Item featherFalling_item;
 
+	// ----------
+
+	public int goldFeatherWings_maxFlaps = 14;
+	public int goldLeatherWings_maxFlaps = 16;
+	public int goldClothWings_maxFlaps = 12;
+
+	public int ironFeatherWings_maxFlaps = 22;
+	public int ironLeatherWings_maxFlaps = 24;
+	public int ironClothWings_maxFlaps = 20;
+
+	public int chainFeatherWings_maxFlaps = 16;
+	public int chainLeatherWings_maxFlaps = 18;
+	public int chainClothWings_maxFlaps = 14;
+
+	public int diamondFeatherWings_maxFlaps = 46;
+	public int diamondLeatherWings_maxFlaps = 48;
+	public int diamondClothWings_maxFlaps = 44;
+
+	public int goldFeatherWings_coolDown = 5;
+	public int goldLeatherWings_coolDown = 6;
+	public int goldClothWings_coolDown = 6;
+
+	public int ironFeatherWings_coolDown = 11;
+	public int ironLeatherWings_coolDown = 12;
+	public int ironClothWings_coolDown = 12;
+
+	public int chainFeatherWings_coolDown = 7;
+	public int chainLeatherWings_coolDown = 8;
+	public int chainClothWings_coolDown = 8;
+
+	public int diamondFeatherWings_coolDown = 8;
+	public int diamondLeatherWings_coolDown = 9;
+	public int diamondClothWings_coolDown = 9;
+
+	// ----------
+
 	public SimpleConfig(Configuration configFile)
 	{
 		this.config = configFile;
@@ -70,6 +106,42 @@ public final class SimpleConfig
 
 		this.enableXPRecipe = this.config.get("Items", "EnableExperienceBottleRecipe", true).getBoolean(true);
 
+		// ----------
+
+		goldFeatherWings_maxFlaps = this.config.get("maxFlaps", "goldFeatherWings", goldFeatherWings_maxFlaps).getInt();
+		goldLeatherWings_maxFlaps = this.config.get("maxFlaps", "goldLeatherWings", goldLeatherWings_maxFlaps).getInt();
+		goldClothWings_maxFlaps = this.config.get("maxFlaps", "goldClothWings", goldClothWings_maxFlaps).getInt();
+
+		ironFeatherWings_maxFlaps = this.config.get("maxFlaps", "ironFeatherWings", ironFeatherWings_maxFlaps).getInt();
+		ironLeatherWings_maxFlaps = this.config.get("maxFlaps", "ironLeatherWings", ironLeatherWings_maxFlaps).getInt();
+		ironClothWings_maxFlaps = this.config.get("maxFlaps", "ironClothWings", ironClothWings_maxFlaps).getInt();
+
+		chainFeatherWings_maxFlaps = this.config.get("maxFlaps", "chainFeatherWings", chainFeatherWings_maxFlaps).getInt();
+		chainLeatherWings_maxFlaps = this.config.get("maxFlaps", "chainLeatherWings", chainLeatherWings_maxFlaps).getInt();
+		chainClothWings_maxFlaps = this.config.get("maxFlaps", "chainClothWings", chainClothWings_maxFlaps).getInt();
+
+		diamondFeatherWings_maxFlaps = this.config.get("maxFlaps", "diamondFeatherWings", diamondFeatherWings_maxFlaps).getInt();
+		diamondLeatherWings_maxFlaps = this.config.get("maxFlaps", "diamondLeatherWings", diamondLeatherWings_maxFlaps).getInt();
+		diamondClothWings_maxFlaps = this.config.get("maxFlaps", "diamondClothWings", diamondClothWings_maxFlaps).getInt();
+
+		goldFeatherWings_coolDown = this.config.get("coolDown", "goldFeatherWings", goldFeatherWings_coolDown).getInt();
+		goldLeatherWings_coolDown = this.config.get("coolDown", "goldLeatherWings", goldLeatherWings_coolDown).getInt();
+		goldClothWings_coolDown = this.config.get("coolDown", "goldClothWings", goldClothWings_coolDown).getInt();
+
+		ironFeatherWings_coolDown = this.config.get("coolDown", "ironFeatherWings", ironFeatherWings_coolDown).getInt();
+		ironLeatherWings_coolDown = this.config.get("coolDown", "ironLeatherWings", ironLeatherWings_coolDown).getInt();
+		ironClothWings_coolDown = this.config.get("coolDown", "ironClothWings", ironClothWings_coolDown).getInt();
+
+		chainFeatherWings_coolDown = this.config.get("coolDown", "chainFeatherWings", chainFeatherWings_coolDown).getInt();
+		chainLeatherWings_coolDown = this.config.get("coolDown", "chainLeatherWings", chainLeatherWings_coolDown).getInt();
+		chainClothWings_coolDown = this.config.get("coolDown", "chainClothWings", chainClothWings_coolDown).getInt();
+
+		diamondFeatherWings_coolDown = this.config.get("coolDown", "diamondFeatherWings", diamondFeatherWings_coolDown).getInt();
+		diamondLeatherWings_coolDown = this.config.get("coolDown", "diamondLeatherWings", diamondLeatherWings_coolDown).getInt();
+		diamondClothWings_coolDown = this.config.get("coolDown", "diamondClothWings", diamondClothWings_coolDown).getInt();
+
+		// ----------
+
 		this.config.save();
 	}
 
@@ -85,3 +157,16 @@ public final class SimpleConfig
 		return GameRegistry.findItem(modId, name);
 	}
 }
+
+/* ====================================================================================================
+ * NOTICE OF MODIFICATIONS
+ * ----------------------------------------------------------------------------------------------------
+ *
+ * This Work is Copyright 2014 _Antihero_ and is licensed under the Apache License, Version 2.0.
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Pursuant to section 4b of the above license, this file contains modifications made by csb987.
+ *
+ * ====================================================================================================
+ */

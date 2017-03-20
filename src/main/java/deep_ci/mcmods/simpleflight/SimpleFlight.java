@@ -1,5 +1,9 @@
 package deep_ci.mcmods.simpleflight;
 
+import java.util.Arrays;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.ModMetadata;
@@ -8,10 +12,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
 import deep_ci.mcmods.simpleflight.common.CommonProxy;
-import java.util.Arrays;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 @Mod(modid = "DP_SimpleFlight", version = "0.9-prerelease")
 public class SimpleFlight

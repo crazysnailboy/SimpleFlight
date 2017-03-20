@@ -142,45 +142,49 @@ public final class ModItems
 		this.leatherWings.setTextureName(getTex("leather_wings")).setUnlocalizedName("leather_wings");
 		this.itemList.add(this.leatherWings);
 
-		this.goldFeatherWings = new WingItem(14, 5, false, false, ItemArmor.ArmorMaterial.GOLD, 4, 1);
+		// ----------
+
+		this.goldFeatherWings = new WingItem(SimpleFlight.config.goldFeatherWings_maxFlaps, SimpleFlight.config.goldFeatherWings_coolDown, false, false, ItemArmor.ArmorMaterial.GOLD, 4, 1);
 		this.goldFeatherWings.setTextureName(getTex("golden_feather_wings")).setUnlocalizedName("gold_feather_wings");
-		this.goldLeatherWings = new WingItem(16, 6, false, ItemArmor.ArmorMaterial.GOLD, 4, 1);
+		this.goldLeatherWings = new WingItem(SimpleFlight.config.goldLeatherWings_maxFlaps, SimpleFlight.config.goldLeatherWings_coolDown, false, ItemArmor.ArmorMaterial.GOLD, 4, 1);
 		this.goldLeatherWings.setTextureName(getTex("golden_leather_wings")).setUnlocalizedName("gold_leather_wings");
-		this.goldClothWings = new WingItem(12, 6, false, false, ItemArmor.ArmorMaterial.GOLD, 4, 1);
+		this.goldClothWings = new WingItem(SimpleFlight.config.goldClothWings_maxFlaps, SimpleFlight.config.goldClothWings_coolDown, false, false, ItemArmor.ArmorMaterial.GOLD, 4, 1);
 		this.goldClothWings.setTextureName(getTex("golden_leather_wings")).setUnlocalizedName("gold_cloth_wings");
 		this.itemList.add(this.goldFeatherWings);
 		this.itemList.add(this.goldLeatherWings);
 		this.itemList.add(this.goldClothWings);
 
-		this.ironFeatherWings = new WingItem(22, 11, false, false, ItemArmor.ArmorMaterial.IRON, 2, 1);
+		this.ironFeatherWings = new WingItem(SimpleFlight.config.ironFeatherWings_maxFlaps, SimpleFlight.config.ironFeatherWings_coolDown, false, false, ItemArmor.ArmorMaterial.IRON, 2, 1);
 		this.ironFeatherWings.setTextureName(getTex("iron_feather_wings")).setUnlocalizedName("iron_feather_wings");
-		this.ironLeatherWings = new WingItem(24, 12, false, ItemArmor.ArmorMaterial.IRON, 2, 1);
+		this.ironLeatherWings = new WingItem(SimpleFlight.config.ironLeatherWings_maxFlaps, SimpleFlight.config.ironLeatherWings_coolDown, false, ItemArmor.ArmorMaterial.IRON, 2, 1);
 		this.ironLeatherWings.setTextureName(getTex("iron_leather_wings")).setUnlocalizedName("iron_leather_wings");
-		this.ironClothWings = new WingItem(20, 12, false, false, ItemArmor.ArmorMaterial.IRON, 2, 1);
+		this.ironClothWings = new WingItem(SimpleFlight.config.ironClothWings_maxFlaps, SimpleFlight.config.ironClothWings_coolDown, false, false, ItemArmor.ArmorMaterial.IRON, 2, 1);
 		this.ironClothWings.setTextureName(getTex("iron_leather_wings")).setUnlocalizedName("iron_cloth_wings");
 		this.itemList.add(this.ironFeatherWings);
 		this.itemList.add(this.ironLeatherWings);
 		this.itemList.add(this.ironClothWings);
 
-		this.chainFeatherWings = new WingItem(16, 7, false, false, ItemArmor.ArmorMaterial.CHAIN, 2, 1);
+		this.chainFeatherWings = new WingItem(SimpleFlight.config.chainFeatherWings_maxFlaps, SimpleFlight.config.chainFeatherWings_coolDown, false, false, ItemArmor.ArmorMaterial.CHAIN, 2, 1);
 		this.chainFeatherWings.setTextureName(getTex("chainmail_feather_wings")).setUnlocalizedName("chain_feather_wings");
-		this.chainLeatherWings = new WingItem(18, 8, false, ItemArmor.ArmorMaterial.CHAIN, 2, 1);
+		this.chainLeatherWings = new WingItem(SimpleFlight.config.chainLeatherWings_maxFlaps, SimpleFlight.config.chainLeatherWings_coolDown, false, ItemArmor.ArmorMaterial.CHAIN, 2, 1);
 		this.chainLeatherWings.setTextureName(getTex("chainmail_leather_wings")).setUnlocalizedName("chain_leather_wings");
-		this.chainClothWings = new WingItem(14, 8, false, false, ItemArmor.ArmorMaterial.CHAIN, 2, 1);
+		this.chainClothWings = new WingItem(SimpleFlight.config.chainClothWings_maxFlaps, SimpleFlight.config.chainClothWings_coolDown, false, false, ItemArmor.ArmorMaterial.CHAIN, 2, 1);
 		this.chainClothWings.setTextureName(getTex("chainmail_leather_wings")).setUnlocalizedName("chain_cloth_wings");
 		this.itemList.add(this.chainFeatherWings);
 		this.itemList.add(this.chainLeatherWings);
 		this.itemList.add(this.chainClothWings);
 
-		this.diamondFeatherWings = new WingItem(46, 8, false, false, ItemArmor.ArmorMaterial.DIAMOND, 3, 1);
+		this.diamondFeatherWings = new WingItem(SimpleFlight.config.diamondFeatherWings_maxFlaps, SimpleFlight.config.diamondFeatherWings_coolDown, false, false, ItemArmor.ArmorMaterial.DIAMOND, 3, 1);
 		this.diamondFeatherWings.setTextureName(getTex("diamond_feather_wings")).setUnlocalizedName("diamond_feather_wings");
-		this.diamondLeatherWings = new WingItem(48, 9, false, ItemArmor.ArmorMaterial.DIAMOND, 3, 1);
+		this.diamondLeatherWings = new WingItem(SimpleFlight.config.diamondLeatherWings_maxFlaps, SimpleFlight.config.diamondLeatherWings_coolDown, false, ItemArmor.ArmorMaterial.DIAMOND, 3, 1);
 		this.diamondLeatherWings.setTextureName(getTex("diamond_leather_wings")).setUnlocalizedName("diamond_leather_wings");
-		this.diamondClothWings = new WingItem(44, 9, false, false, ItemArmor.ArmorMaterial.DIAMOND, 3, 1);
+		this.diamondClothWings = new WingItem(SimpleFlight.config.diamondClothWings_maxFlaps, SimpleFlight.config.diamondClothWings_coolDown, false, false, ItemArmor.ArmorMaterial.DIAMOND, 3, 1);
 		this.diamondClothWings.setTextureName(getTex("diamond_leather_wings")).setUnlocalizedName("diamond_cloth_wings");
 		this.itemList.add(this.diamondFeatherWings);
 		this.itemList.add(this.diamondLeatherWings);
 		this.itemList.add(this.diamondClothWings);
+
+		// ----------
 
 		SimpleFlight.logger.log(Level.INFO, "Initialized wings.");
 	}
@@ -284,3 +288,16 @@ public final class ModItems
 		SimpleFlight.logger.log(Level.DEBUG, "Recipe Registration COMPLETE.");
 	}
 }
+
+/* ====================================================================================================
+ * NOTICE OF MODIFICATIONS
+ * ----------------------------------------------------------------------------------------------------
+ *
+ * This Work is Copyright 2014 _Antihero_ and is licensed under the Apache License, Version 2.0.
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Pursuant to section 4b of the above license, this file contains modifications made by csb987.
+ *
+ * ====================================================================================================
+ */
