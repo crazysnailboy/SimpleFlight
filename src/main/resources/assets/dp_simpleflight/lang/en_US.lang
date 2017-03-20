@@ -1,0 +1,32 @@
+dp_simpleflight.tooltip.jetpackflapcount=%1$s/%2$s fuel remaining
+dp_simpleflight.tooltip.flapcount=%1$s wingbeats per flight
+dp_simpleflight.tooltip.fallreduction=%1$s less fall damage
+dp_simpleflight.tooltip.cooldown=%1$ss cooldown
+dp_simpleflight.tooltip.bonusflaps=+%1$s total wingbeats
+dp_simpleflight.tooltip.coolbonus=-%1$ss total cooldown
+
+enchantment.fly_longer=Sturdy Bearings
+enchantment.fly_faster=Aerial Swiftness
+
+item.leather_glider.name=Leather Glider
+item.paper_glider.name=Papyrus Glider
+item.cloth_glider.name=Cloth Glider
+item.reed_paper_glider.name=Papyrus Glider
+item.reed_cloth_glider.name=Cloth Glider
+
+item.leather_wings.name=Leather Wings
+item.gold_feather_wings.name=Quick Feather Wings
+item.gold_leather_wings.name=Quick Leather Wings
+item.gold_cloth_wings.name=Quick Cloth Wings
+item.iron_feather_wings.name=Heavy Feather Wings
+item.iron_leather_wings.name=Heavy Leather Wings
+item.iron_cloth_wings.name=Heavy Cloth Wings
+item.chain_feather_wings.name=Chainmail Feather Wings
+item.chain_leather_wings.name=Chainmail Leather Wings
+item.chain_cloth_wings.name=Chainmail Cloth Wings
+item.diamond_feather_wings.name=Diamond Feather Wings
+item.diamond_leather_wings.name=Diamond Leather Wings
+item.diamond_cloth_wings.name=Diamond Cloth Wings
+
+item.jetpack.name=Jetpack
+item.jetglider.name=Jet Glider
